@@ -1,0 +1,11 @@
+﻿.venv/
+__pycache__/
+*.py[cod]
+*.db
+uploads/
+outputs/
+runs/
+*.pt
+*.pth
+*.onnx
+app_backup*.py
