@@ -1,11 +1,45 @@
-﻿.venv/
+﻿# Python environment
+.venv/
 __pycache__/
 *.py[cod]
+
+# Private databases and investigation data
 *.db
+*.sqlite
+*.sqlite3
 uploads/
+database/
+
+# Generated files
 outputs/
+output/
 runs/
+temp/
+cache/
+*.log
+
+# AI model weights
 *.pt
 *.pth
 *.onnx
+
+# CCTV footage and media
+archived_videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+
+# Backups and duplicate projects
 app_backup*.py
+backup_pre_repair_20261108/
+evidence_graph_starter/
+
+# Large installers
+*.exe
+*.msi
+
+# Secrets
+.env
+.streamlit/secrets.toml

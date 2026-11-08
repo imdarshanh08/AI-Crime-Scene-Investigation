@@ -1,0 +1,15 @@
+streamlit>=1.35.0
+torch>=2.0.0
+torchvision
+torchaudio
+ultralytics>=8.0.0
+faster-whisper>=1.0.0
+opencv-python>=4.8.0
+networkx>=3.0
+pyvis>=0.3.2
+pandas>=2.0.0
+reportlab>=4.0.0
+pillow>=10.0.0
+av>=11.0.0
+ctranslate2>=4.0.0
+
