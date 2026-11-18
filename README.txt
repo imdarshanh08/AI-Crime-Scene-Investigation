@@ -1,3 +1,6 @@
+LEGACY NOTES: these describe the early evidence_graph_core.py prototype, which the
+application no longer uses. See README.md for the current project.
+
 EVIDENCE GRAPH STARTER - DAY 1
 ================================
 

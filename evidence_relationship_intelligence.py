@@ -337,7 +337,7 @@ def render_record_details(record):
 def render_evidence_relationship_intelligence():
 
     st.header(
-        "🧠 Section 27: Evidence Relationship Intelligence"
+        "🧠 Evidence Relationship Intelligence"
     )
 
     st.write(
@@ -361,7 +361,7 @@ def render_evidence_relationship_intelligence():
 
     st.dataframe(
         database_report,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -474,7 +474,7 @@ def render_evidence_relationship_intelligence():
 
     st.dataframe(
         overview,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
